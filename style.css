@@ -7,16 +7,18 @@ nav{
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 40px;
+    height: 45px;
     margin-top: 30px !important;
     background-color: rgb(253, 241, 253);
     width: 85%;
     border-radius: 20px;
 }
 .Try_out{
+    margin-top: 10px;
     float: right;
     border-radius: 20px;
-    background-color: ;
+    background-image: linear-gradient(310deg,#c984c3,#ff0080);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .site_logo{
     text-decoration: none;
