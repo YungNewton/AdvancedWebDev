@@ -1,10 +1,18 @@
 body{
-    background-color: black;
+    background-color: pink;
 }
 nav{
-    text-align: c;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
     margin-top: 30px !important;
-    background-color: white;
+    background-color: rgb(253, 241, 253);
     width: 85%;
-    margin: auto;
+    border-radius: 20px;
+}
+.Try_out{
+    float: right;
 }
