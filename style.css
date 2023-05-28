@@ -15,4 +15,12 @@ nav{
 }
 .Try_out{
     float: right;
+    border-radius: 20px;
+    background-color: ;
+}
+.site_logo{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
 }
