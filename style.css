@@ -139,6 +139,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    box-shadow: 5px 20px #f3f0f0;
+
 
 }
 .vertical {
@@ -230,4 +232,18 @@ table{
     margin-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+}
+.input{
+    width: 30%;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.submit{
+    width: 19%;
+    border-radius: 20px;
+    background-image: linear-gradient(310deg,#c984c3,#ff0080);
+}
+.fifth{
+    margin-top: 120px;
+    padding-bottom: 100px
 }
