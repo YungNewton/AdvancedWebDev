@@ -25,7 +25,7 @@
 }
 .sec{
 
-    height: 500px;
+    height: 70vh;
     background-image: linear-gradient(310deg,#ebe9ed,#ff0080);
     top: 0%;
 }
@@ -54,7 +54,7 @@
     width: 100%;
     overflow: hidden;
     height: 100%;
-    bottom: 300px;
+    bottom: 28vh;
 }
 .bgTop {
     z-index: 15;
@@ -89,13 +89,13 @@
     background-size: 50% 120px;
 }
 .waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
+    animation: move_wave 28s linear infinite;
 }
 .waveBottom {
     background-size: 50% 100px;
 }
 .waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
+    animation: move_wave 28s linear infinite;
 }
 .it{
     position: absolute;
@@ -114,6 +114,21 @@
 .it > p{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.third{
+    opacity: 0.9;
+    position: absolute;
+    margin-top: -100px;
+    z-index: 20;
+    height: 200px;
+    background-color: rgb(253, 241, 253);
+    width: 65%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
 }
 
   
