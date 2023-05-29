@@ -130,5 +130,12 @@
     border-radius: 20px;
 
 }
+.vertical {
+    border-left: 0.1px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+    opacity: 0.1;
+  }
 
   
