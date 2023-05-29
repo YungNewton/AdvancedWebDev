@@ -150,12 +150,14 @@
   }
 table{
     text-align: center;
-    width: 100%;
+    width: 103%;
 }
-.left{
-    position: relative;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.headers{
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: 
+    color: #d355d1;
+}
+.restyle{
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
   
