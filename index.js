@@ -10,28 +10,23 @@ function TheAlert(){
     combinationOfInput = combinationOfInput.toLowerCase();
     var trueCounter = 0;
     var loveCounter = 0;
-    function hasWhiteSpace(s) {
-        return s.indexOf(' ') >= 0;
-    }
-    if(true){
-        for (var i = 0; i < combinationOfInput.length; i++){
-            if(combinationOfInput.charAt(i) === "t" || combinationOfInput.charAt(i) === "r"){
-                trueCounter++;
-            }else if(combinationOfInput.charAt(i) === "u" || combinationOfInput.charAt(i) === "e"){
-                trueCounter++;
-            }
-            if(combinationOfInput.charAt(i) === "l" || combinationOfInput.charAt(i) === "o"){
-                loveCounter++;
-            }else if(combinationOfInput.charAt(i) === "v" || combinationOfInput.charAt(i) === "e"){
-                loveCounter++;
-            }
+    for (var i = 0; i < combinationOfInput.length; i++){
+        if(combinationOfInput.charAt(i) === "t" || combinationOfInput.charAt(i) === "r"){
+            trueCounter++;
+        }else if(combinationOfInput.charAt(i) === "u" || combinationOfInput.charAt(i) === "e"){
+            trueCounter++;
         }
-        trueCounter = trueCounter * 10;
-        var percentage = trueCounter + loveCounter;
-        if (percentage > 100){
-            percentage = 100;
+        if(combinationOfInput.charAt(i) === "l" || combinationOfInput.charAt(i) === "o"){
+            loveCounter++;
+        }else if(combinationOfInput.charAt(i) === "v" || combinationOfInput.charAt(i) === "e"){
+            loveCounter++;
         }
-        document.querySelector(".value").textContent = percentage + "%";
     }
+    trueCounter = trueCounter * 10;
+    var percentage = trueCounter + loveCounter;
+    if (percentage > 100){
+        percentage = 100;
+    }
+    document.querySelector(".value").textContent = percentage + "%";
 }
 document.querySelector(".submit").onclick = function(){TheAlert()};
