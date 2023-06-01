@@ -24,6 +24,6 @@ function TheAlert(){
     }
     trueCounter = trueCounter * 10;
     var percentage = trueCounter + loveCounter;
-    document.querySelector(".value").textContent = percentage;
+    document.querySelector(".value").textContent = percentage + "%";
 }
 document.querySelector(".submit").onclick = function(){TheAlert()};
