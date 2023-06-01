@@ -5,7 +5,13 @@ function change(){
 document.querySelector(".Try_out").onclick = function(){change()};
 var input1 = document.querySelector(".input").value
 var input2 = document.querySelector(".input2").value
-function calculate(FirstInput, secondInput){
-    document.querySelector(".submit").onclick = function(){alert(FirstInput)};
+var combinationOfInput = input1 + input2;
+var TrueCounter = 0;
+var LoveCounter = 0;
+for (var i = 0; i < combinationOfInput.length; i++){
+    
 }
-calculate(input1, input2);
+function TheAlert(){
+    
+}
+document.querySelector(".submit").onclick = function(){TheAlert()};
