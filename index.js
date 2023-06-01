@@ -24,6 +24,16 @@ function TheAlert(){
     }
     trueCounter = trueCounter * 10;
     var percentage = trueCounter + loveCounter;
+    if (percentage > 100){
+        percentage = 100;
+    }
     document.querySelector(".value").textContent = percentage + "%";
 }
-document.querySelector(".submit").onclick = function(){TheAlert()};
+function fillIn(){
+    alert("Kindly fill in both first and last name for more accuracy.");
+}
+if(true){
+    document.querySelector(".submit").onclick = function(){TheAlert()};
+}else{
+    document.querySelector(".submit").onclick = function(){fillIn};
+}
